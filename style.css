@@ -1,0 +1,14 @@
+html, body {
+	margin:0px;
+	margin-top:0px;
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+  margin-top:0px;
+  background-color:red;
+  width:40%;
+  float:left;
+  margin:0px;
+}
