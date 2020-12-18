@@ -39,3 +39,39 @@ html, body {
   background-color: #4CAF50;
   color: white;
 }
+
+.barrahe{
+float:left;	
+background-color:red;
+text-align:left;
+	overflow: hidden;
+}
+
+
+.barrahe a{
+	background-color:green;
+margin-right:2%;
+padding:10px 10px;
+}
+
+.barrahe1{
+overflow: hidden;
+background-color:green;
+}
+
+.barrahe1 a{
+	float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.barrahe1 a.hover{
+	color:blue;
+	background-color:purple;
+}
+
+.barrahe1 a.active{
+color:yellow;
+background-color:pink;	
+}
