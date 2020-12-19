@@ -23,7 +23,7 @@
     
 <button onclick="" class="lang__translate">Translate to English</button>
  
-segundo
+
 
 <div class="barrahe1">
 <a class="active"  href="#prueba"> SOBRE MÍ</a>
@@ -33,13 +33,47 @@ segundo
 </div>
   <hr style="border:15px;">
   <hr style="width:100%;">
-<a href="#prueba">sdsadsdkj</a>
 
-  <h1 id="prueba">dfdsfdsf</h1>
 <script>
 console.log("funciona java");
 var time = new Date();
 console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
 </script>
+
+<a href="#" onclick="setLanguage('en')">English</a> 
+<a href="#" onclick="setLanguage('es')">Spanish</a>
+
+<div id="div1"></div>
+
+<script>
+var language; 
+function getLanguage() {
+(localStorage.getItem('language') == null) ? setLanguage('en') : false;
+$.ajax({ 
+url:  '/language/' +  localStorage.getItem('language') + '.json', 
+dataType: 'json', async: false, dataType: 'json', 
+success: function (lang) { language = lang } });
+}
+
+function setLanguage(lang) {
+localStorage.setItem('language', lang);
+}
+</script>
+
+
+
+
+
+
+<p class="date"> </p>
+<p class="save"> </p>
+<p class="cancel"> </p>
+
+<script language="javascript">
+   console.log(prueba());
+   document.write(prueba());
+</script>
+prueba();
+"prueba()";
 </body>
 </html>
