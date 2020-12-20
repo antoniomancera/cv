@@ -33,16 +33,15 @@
 
 
 <div class="barrahe1">
-<a class="active"  href="#yo" id="yo" name="translate"> SOBRE MÍ</a>
-<a  href="#exp" id="exp" name="translate">EXPERIENCIA</a>
-<a  href="#form">FORMACIÓN </a>
-<a  href="#formcompl"> HABILIDADES </a>
+<a class="active"  href="#yo" id="yo" name="translate" caption="yo"> SOBRE MÍ</a>
+<a  href="#exp" id="exp" name="translate" caption="exp">EXPERIENCIA</a>
+<a  href="#form" id="formacion" name="translate" caption="formacion">FORMACIÓN </a>
+<a  href="#formcompl" id="habil" name="translate" caption="habil"> HABILIDADES </a>
 <button class="btn btn-danger mx-1" id="es_button" >es</button>
           <button class="btn btn-warning mx-1" id="eng_button">ENG</button>
           <button class="btn btn-warning mx-1" id="fr_button">fr</button>
 </div>
  
-
 
 
 
@@ -63,7 +62,7 @@
     la ciencia ficción y la programación.
 
   </div>
-  <div id="perfil">
+  <div id="perfil" name="translate" caption="perfil">
     Gracias a mi Grado en Matemáticas y mi Máster en Big Data y Business Intelligence, estoy orientando mi perfil profesional 
     al área de la programación y las matemáticas. Si bien poseo poca experiencia profesional,
      lo estoy tratando de compensar con conocimientos en diversos áreas gracias a distintos cursos. 
@@ -72,16 +71,16 @@
 
 <!--experiencia-->
 <div id="exp">
-  <h2>EXPERIENCIA</h2>
-  <div id="Avanade">
+  <h2 id="expe" name="translate" caption="expe">EXPERIENCIA</h2>
+  <div id="avanade">
 
     <h3>
-      <ng-container id="Avafecha">3/19-09/19</ng-container>
-      <ng-container id="Avanombre">Prácticas con tecnologías Microsoft en Avanade</ng-container>
-      <ng-container id="Avalugar">Parque tecnológico de Andalucía, Málaga, Andalucía, España</ng-container>
+      <ng-container id="avafecha">3/19-09/19</ng-container>
+      <ng-container id="avanombre" name="translate" caption="avanombre">Prácticas con tecnologías Microsoft en Avanade</ng-container>
+      <ng-container id="avalugar">Parque tecnológico de Andalucía, Málaga, Andalucía, España</ng-container>
   
     </h3>
-      <p>Programación bajo tecnología Microsoft en entornos .Net, C#, SQL, bajo
+      <p id="avaexpl" name="translate" caption="avaexpl">Programación bajo tecnología Microsoft en entornos .Net, C#, SQL, bajo
         metodologías Agile. La primera parte estuvo principalmente orientada al aprendizaje de C#, y SQL,
       para usar los conocimientos aprendidos con Microsoft Azure.</p>
   </div>
@@ -90,18 +89,18 @@
 <!--Formación-->
 <div id="form">
   <div id="formaca">
-    <h2>
+    <h2 id="formacade" name="translate" caption="formacade">
       FORMACIÓN ACADÉMICA
     </h2>
 
     <div id="master">
       <h3>
         <ng-container id="masterfecha">2020</ng-container>
-        <ng-container id="mastertitulo">Máster en Big Data y Business Intelligence</ng-container>
-        <ng-container id="masteriseb">Universidad Isabel I y ISEB, España</ng-container>
+        <ng-container id="mastertitulo" name="translate" caption="mastertitulo">Máster en Big Data y Business Intelligence</ng-container>
+        <ng-container id="masteriseb" name="translate" caption="masteriseb">Universidad Isabel I y ISEB, España</ng-container>
       </h3>
-        <p id="masterexpl">
-           Que me permitió obtener conocimientos exhaustivos sobre las tecnologías Big Data y su aplicación en el mundo empresarial,
+        <p id="masterexpl" name="translate" caption="masterexpl">
+           Me permitió obtener conocimientos exhaustivos sobre las tecnologías Big Data y su aplicación en el mundo empresarial,
            abordando con especial énfasis las herramientas analíticas del campo del Business Analytics.  
         </p>
  
@@ -111,15 +110,15 @@
     <div id="mates">
       <h3>
         <ng-container id="matesfecha">2018</ng-container>
-        <ng-container id="matesgrado">Grado en Matemáticas</ng-container>
-        <ng-container id="matesuma">Universidad de Málaga, España</ng-container>
+        <ng-container id="matesgrado" name="translate" caption="matesgrado">Grado en Matemáticas</ng-container>
+        <ng-container id="matesuma" name="translate" caption="matesuma">Universidad de Málaga, España</ng-container>
       </h3>
-        <p id="matesdenjoy">
+        <p id="matesdenjoy" name="translate" caption="matesdenjoy">
           Mi trabajo consistió en estudiar el comportamiento de las iteradas
           de funciones holomorfas. Llegando a probar el conocido como Teorema de Denjoy-
           Wolff.
         </p>
-        <p id="matesjulia">
+        <p id="matesjulia" name="translate" caption="matesjulia">
           También consideré las iteradas de funciones polinómicas (de la esfera de
           Riemann en sı́ misma), e introduje los conceptos básicos asociados
           con esta teorı́a, como son conjuntos de Julia y de Fatou.
@@ -129,10 +128,10 @@
     <div id="bachiller">
       <h3>
         <ng-container id="bachillerfecha">2009</ng-container>
-        <ng-container id="bachillertitulo">Título de Bachillerato</ng-container>
-        <ng-container id="bachillercampa">I.E.S. Campanillas, España</ng-container>
+        <ng-container id="bachillertitulo" name="translate" caption="bachillertitulo">Título de Bachillerato</ng-container>
+        <ng-container id="bachillercampa" name="translate" caption="bachillercampa">I.E.S. Campanillas, España</ng-container>
       </h3>
-        <p id="bachillermodalidad">
+        <p id="bachillermodalidad" name="translate" caption="bachillermodalidad">
           Modalidad en Ciencias de la Naturaleza y la Salud.
         </p>
        
@@ -141,13 +140,13 @@
 
     
 
-    <h2>
+    <h2 id="formacompl" name="translate" caption="formacompl">
       FORMACIÓN COMPLEMENTARIA
     </h2>
     <div id="eoi">
       <h3>
         <ng-container id="eoifecha">2020</ng-container>
-        <ng-container id="eoititulo">Técnico en desarrollo de Aplicaciones Web con Angular (350h)</ng-container>
+        <ng-container id="eoititulo" name="translate" caption="eoititulo">Técnico en desarrollo de Aplicaciones Web con Angular (350h)</ng-container>
         <ng-container id="eoilugar">EOI</ng-container>
       </h3>
     </div>
@@ -155,7 +154,7 @@
     <div id="mov">
       <h3>
         <ng-container id="movfecha">2020</ng-container>
-        <ng-container id="movtitulo">Desarrollo de Aplicaciones Móviles (150h)</ng-container>
+        <ng-container id="movtitulo" name="translate" caption="movtitulo">Desarrollo de Aplicaciones Móviles (150h)</ng-container>
         <ng-container id="movlugar">Cámara de Comercio</ng-container>
       </h3>
     </div>
@@ -163,7 +162,7 @@
     <div id="vide">
       <h3>
         <ng-container id="videfecha">2020</ng-container>
-        <ng-container id="videtitulo">Programa de Videojuegos y Emprendimiento (50h)</ng-container>
+        <ng-container id="videtitulo" name="translate" caption="videtitulo">Programa de Videojuegos y Emprendimiento (50h)</ng-container>
         <ng-container id="videlugar">Fundación INCYDE</ng-container>
       </h3>
     </div>
@@ -171,7 +170,7 @@
     <div id="bus">
       <h3>
         <ng-container id="busfecha">2020</ng-container>
-        <ng-container id="busitulo">Introducción a Business Intelligence (30h)</ng-container>
+        <ng-container id="busitulo" name="translate" caption="busitulo">Introducción a Business Intelligence (30h)</ng-container>
         <ng-container id="buslugar">Centro de Estudios Profesionales</ng-container>
       </h3>
     </div>
@@ -179,7 +178,7 @@
     <div id="r">
       <h3>
         <ng-container id="rfecha">2019</ng-container>
-        <ng-container id="ritulo">R para Ciencia de Datos (25h)</ng-container>
+        <ng-container id="ritulo" name="translate" caption="rtitulo">R para Ciencia de Datos (25h)</ng-container>
         <ng-container id="rlugar">FGUMA</ng-container>
       </h3>
     </div>
@@ -195,7 +194,7 @@
     <div id="juv">
       <h3>
         <ng-container id="juvfecha">2015</ng-container>
-        <ng-container id="juvtitulo">Inglés nivel B1-2 (68 horas)</ng-container>
+        <ng-container id="juvtitulo" name="translate" caption="juvtitulo">Inglés nivel B1-2 (68 horas)</ng-container>
         <ng-container id="juvlugar">Área de Juventud Ayuntamiento de Málaga</ng-container>
       </h3>
     </div>
