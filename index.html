@@ -31,49 +31,41 @@
 <a  href="#prueba">FORMACIÓN </a>
 <a  href="#prueba"> HABILIDADES </a>
 </div>
-  <hr style="border:15px;">
-  <hr style="width:100%;">
-
-<script>
-console.log("funciona java");
-var time = new Date();
-console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
-</script>
-
-<a href="#" onclick="setLanguage('en')">English</a> 
-<a href="#" onclick="setLanguage('es')">Spanish</a>
-
-<div id="div1"></div>
-
-<script>
-var language; 
-function getLanguage() {
-(localStorage.getItem('language') == null) ? setLanguage('en') : false;
-$.ajax({ 
-url:  '/language/' +  localStorage.getItem('language') + '.json', 
-dataType: 'json', async: false, dataType: 'json', 
-success: function (lang) { language = lang } });
-}
-
-function setLanguage(lang) {
-localStorage.setItem('language', lang);
-}
-</script>
+ 
 
 
 
-fnsdjmfndsj
 
 
-<p class="date"> </p>
-<p class="save"> </p>
-<p class="cancel"> </p>
 
-<script language="javascript">
-   console.log(prueba());
-   document.write(prueba());
-</script>
-prueba();
-"prueba()";
+<!--Sobre mí-->
+<div class="yo">
+  <h1>ANTONIO MANUEL MANCERAS HEVILLA</h1>
+  <h2><ng-container class="mat">Matemático y programador</ng-container><ng-container class="edad" >Málaga</ng-container><ng-container class="num">+34 653038598</ng-container><ng-container class="edad">04/07/1991</ng-container></h2>
+  <p class="perso">Soy una persona muy tranquila, pero de mente inquieta. Tengo auténtica pasión por aprender, soy autodidacta y un lector empedernido, nunca dejo de buscar nueva información para aumentar mis conocimientos
+    sobre todo tipo de temas. Algunos de mis temas favoritos son las matemáticas, la historia, la ciencia ficción y la programación.
+
+  </p>
+  <p class="perfil">
+    Gracias a mi Grado en Matemáticas y mi Máster en Big Data y Business Intelligence, estoy orientando mi perfil profesional al área de la programación y las matemáticas. Si bien poseo poca experiencia profesional,
+     lo estoy tratando de compensar con conocimientos en diversos áreas gracias a distintos cursos.  </p>
+</div>
+
+<!--experiencia-->
+<div class="exp">
+
+</div>
+
+<!--Formación-->
+<div class="forma">
+  <div class="formaaca">
+
+  </div>
+  <div class="formaccompl">
+
+  </div>
+</div>
+
+<!--Habilidades-->
 </body>
 </html>

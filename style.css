@@ -75,3 +75,16 @@ background-color:green;
 color:yellow;
 background-color:pink;	
 }
+
+ng-container{
+  margin-right: 2%;
+}
+
+.yo{
+  width: 80%;
+  text-align: center;
+}
+ .mat{
+  width: 80%;
+  text-align: center;
+}
