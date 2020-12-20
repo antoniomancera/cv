@@ -51,12 +51,14 @@ text-align:left;
 .barrahe a{
 	background-color:green;
 margin-right:2%;
-padding:10px 10px;
+/*padding:10px 10px;*/
 }
 
 .barrahe1{
 overflow: hidden;
 background-color:green;
+position: fixed;
+width: 100%;
 }
 
 .barrahe1 a{
@@ -83,6 +85,7 @@ ng-container{
 .yo{
   width: 80%;
   text-align: center;
+  margin-top: 5%;
 }
  .mat{
   width: 80%;

@@ -5,31 +5,41 @@
   <title>HTML</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <!--
    <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
-</div> 
-<script src="idiomas.js"></script> 
+</div> -->
 
-<title>MuroDev: Español</title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Add Bootstrap lib -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="traductor.js"></script>
+
 </head>
 
 <body>
-<h1 class="lang__title">MuroDev: Español</h1>
-    
-<p class="lang__description">Un sencillo sistema de traduccion por JavaScript.</p>
-    
-<button onclick="" class="lang__translate">Translate to English</button>
+
+
+
+
+
  
 
 
 <div class="barrahe1">
-<a class="active"  href="#yo"> SOBRE MÍ</a>
-<a  href="#exp">EXPERIENCIA </a>
+<a class="active"  href="#yo" id="yo" name="translate"> SOBRE MÍ</a>
+<a  href="#exp" id="exp" name="translate">EXPERIENCIA</a>
 <a  href="#form">FORMACIÓN </a>
 <a  href="#formcompl"> HABILIDADES </a>
+<button class="btn btn-danger mx-1" id="es_button" >es</button>
+          <button class="btn btn-warning mx-1" id="eng_button">ENG</button>
+          <button class="btn btn-warning mx-1" id="fr_button">fr</button>
 </div>
  
 
@@ -42,12 +52,12 @@
 <div id="yo">
   <h1>ANTONIO MANUEL MANCERAS HEVILLA</h1>
   <h2>
-    <ng-container id="mat">Matemático y programador</ng-container>
+    <ng-container id="mat" name="translate" caption="mat">Matemático y programador</ng-container>
     <ng-container id="edad" >Málaga</ng-container>
     <ng-container id="num">+34 653038598</ng-container>
     <ng-container id="edad">04/07/1991</ng-container>
   </h2>
-  <div id="perso">Soy una persona muy tranquila, pero de mente inquieta. Tengo auténtica pasión por aprender,
+  <div id="perso" name="translate" caption="perso">Soy una persona tranquila, pero de mente inquieta. Tengo auténtica pasión por aprender,
      soy autodidacta y un lector empedernido, nunca dejo de buscar nueva información para aumentar mis conocimientos
     sobre todo tipo de temas. Algunos de mis temas favoritos son las matemáticas, la historia, 
     la ciencia ficción y la programación.
@@ -198,7 +208,6 @@
 
   </div>
 </div>
-
 
 <!--Habilidades-->
 </body>
