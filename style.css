@@ -59,9 +59,15 @@ overflow: hidden;
 background-color:green;
 position: fixed;
 width: 100%;
-margin-bottom: 5%;
+margin-bottom: 10%;
 
 }
+
+.mi{
+  margin-top: 5em;
+ 
+}
+
 
 .barrahe1 a{
 	float: left;
@@ -174,7 +180,7 @@ img:hover {
   border-radius: 20px;
 }
 
-
+/*copiado para borrar*/
 * {
   box-sizing: border-box;
 }
