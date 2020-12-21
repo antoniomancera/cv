@@ -57,7 +57,10 @@ padding:10px 10px;
 .barrahe1{
 overflow: hidden;
 background-color:green;
-position: fixed;
+top: 0%;
+width: 100%;
+z-index: 1000;
+
 }
 
 .barrahe1 a{
@@ -81,3 +84,19 @@ ng-container{
   margin-right: 2%;
 }
 
+.btn{
+  background-color: green;
+  float:right;
+}
+
+
+img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+          
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
