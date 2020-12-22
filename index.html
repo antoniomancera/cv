@@ -33,24 +33,26 @@
 
   <div class="barrahe" >
     <img class="foto" src="assets/fotocirc.png" alt="" width="200px" height="200px" >
-    <a class="active"  href="#mi" id="yo" name="translate" caption="yo" > SOBRE MÍ</a>
-    <a  href="#experiencia" id="exp" name="translate" caption="exp">EXPERIENCIA</a>
-    <a  href="#form" id="formacion" name="translate" caption="formacion">FORMACIÓN </a>
-    <a  href="#formcompl" id="habil" name="translate" caption="habil"> HABILIDADES </a>
+    <a class="active"  href="#mi" id="yo" name="translate" caption="yo" style="color: #ea97ad;"> SOBRE MÍ</a>
+    <a  href="#experiencia" id="exp" name="translate" caption="exp" style="color: #ea97ad;">EXPERIENCIA</a>
+    <a class="pulse" href="#form" id="formacion" name="translate" caption="formacion" style="color: #ea97ad;">FORMACIÓN </a>
+    <a  href="#formcompl" id="habil" name="translate" caption="habil" style="color: #ea97ad;"> HABILIDADES </a>
     <div class="idiomas">
       <button class="btn" id="es_button" ><img class="band" src="assets/spain.png" alt="" height="40px" width="40px"></button>
       <button class="btn" id="eng_button"><img class="band" src="assets/usaukc.png" alt="" height="40px" width="40px"></button>
       <button class="btn" id="fr_button"><img class="band" src="assets/france.png" alt="" height="40px" width="40px"></button>
     </div>
     </div>
- 
+  
 </div>
 
 <div class="ladoder">
   <div class="ladodermargen">
 <!--Sobre mí-->
     <div id="mi">
+      <hr class="rounded">
       <h1>ANTONIO MANUEL MANCERAS HEVILLA, Matemático y Programador</h1>
+      <hr class="rounded">
       <div>
         
         <span id="edad" ><img class="git" src="assets/locatino.png" alt="" width="32px" height="32px">Málaga, España</span>
@@ -65,6 +67,7 @@
         <a href="https://www.italki.com/user/7281526"><img class="git" src="assets/italki.png" alt="" width="52px" height="32px"></a>
         
       </div>
+      <hr class="dashed" >
       <div>
         <p class="p" id="perso" name="translate" caption="perso" >
           Soy una persona tranquila, pero de mente inquieta. Tengo auténtica pasión por aprender,
@@ -74,19 +77,20 @@
       </p>
       </div>
       <div>
-        <p class="p" name="translate" caption="perfil" >
+        <p class="p" name="translate" caption="perfil" style="margin-bottom:30%;" >
           Gracias a mi Grado en Matemáticas y mi Máster en Big Data y Business Intelligence, estoy orientando mi perfil profesional 
           al área de la programación y las matemáticas. Si bien poseo poca experiencia profesional,
           lo estoy tratando de compensar aquiriendo conocimientos mediante cursos en diversas áreas. 
-        </p>
-      </div>
-    </div>
+        </p >
+      </div >
+    </div >
 
     <!--experiencia-->
+    <hr class="rounded">
     <div id="experiencia">
       <h2 id="expe" name="translate" caption="expe">EXPERIENCIA</h2>
       <div id="avanade">
-
+        <hr class="rounded">
         <h5>
           <ng-container id="avafecha" >3/19-09/19</ng-container>
           <ng-container id="avanombre" name="translate" caption="avanombre">Prácticas con tecnologías Microsoft en Avanade</ng-container>
@@ -102,10 +106,11 @@
     <!--Formación-->
     <div id="form">
       <div id="formaca">
+        <hr class="rounded">
         <h2 id="formacade" name="translate" caption="formacade">
           FORMACIÓN ACADÉMICA
         </h2>
-
+        <hr class="rounded">
         <div id="master">
           <h3>
             <ng-container id="masterfecha">2020</ng-container>
@@ -159,10 +164,11 @@
         
 
         
-
+        <hr class="rounded">
         <h2 id="formacompl" name="translate" caption="formacompl">
           FORMACIÓN COMPLEMENTARIA
         </h2>
+        <hr class="rounded">
 
 <!--w3-table-->
         <table class="table1">
@@ -210,64 +216,7 @@
           </tr>
         </table>
   
-        <!--<div id="eoi">
-          <h3>
-            <ng-container id="eoifecha">2020</ng-container>
-            <ng-container id="eoititulo" name="translate" caption="eoititulo">Técnico en desarrollo de Aplicaciones Web con Angular (350h)</ng-container>
-            <ng-container id="eoilugar">EOI</ng-container>
-          </h3>
-        </div>
-        
-        <div id="mov">
-          <h3>
-            <ng-container id="movfecha">2020</ng-container>
-            <ng-container id="movtitulo" name="translate" caption="movtitulo">Desarrollo de Aplicaciones Móviles (150h)</ng-container>
-            <ng-container id="movlugar">Cámara de Comercio</ng-container>
-          </h3>
-        </div>
-
-        <div id="vide">
-          <h3>
-            <ng-container id="videfecha">2020</ng-container>
-            <ng-container id="videtitulo" name="translate" caption="videtitulo">Programa de Videojuegos y Emprendimiento (50h)</ng-container>
-            <ng-container id="videlugar">Fundación INCYDE</ng-container>
-          </h3>
-        </div>
-
-        <div id="bus">
-          <h3>
-            <ng-container id="busfecha">2020</ng-container>
-            <ng-container id="busitulo" name="translate" caption="busitulo">Introducción a Business Intelligence (30h)</ng-container>
-            <ng-container id="buslugar">Centro de Estudios Profesionales</ng-container>
-          </h3>
-        </div>
-
-        <div id="r">
-          <h3>
-            <ng-container id="rfecha">2019</ng-container>
-            <ng-container id="ritulo" name="translate" caption="rtitulo">R para Ciencia de Datos (25h)</ng-container>
-            <ng-container id="rlugar">FGUMA</ng-container>
-          </h3>
-        </div>
-
-        <div id="first">
-          <h3>
-            <ng-container id="firstfecha">2018</ng-container>
-            <ng-container id="firstitulo">First Certificate in English </ng-container>
-            <ng-container id="firstlugar">University of Cambridge</ng-container>
-          </h3>
-        </div>
-
-        <div id="juv">
-          <h3>
-            <ng-container id="juvfecha">2015</ng-container>
-            <ng-container id="juvtitulo" name="translate" caption="juvtitulo">Inglés nivel B1-2 (68 horas)</ng-container>
-            <ng-container id="juvlugar">Área de Juventud Ayuntamiento de Málaga</ng-container>
-          </h3>
-        </div>-->
-
-
-        
+       
 
       </div>
       <div id="formcompl">
@@ -276,93 +225,97 @@
     </div>
 
     <!--Habilidades-->
+    <hr class="rounded">
     <h2>PROGRAMACIÓN</h2>
-    <h3>Latex</h3>
-    <div class="lengpro">
-      <div class="latex">
-          90%
+    <hr class="rounded">
+    <div >
+      <h3 >Latex</h3>
+      <div class="lengpro">
+        <div class="latex">
+            90%
+        </div>
       </div>
-    </div>
 
 
 
-    <h3>C#</h3>
-    <div class="lengpro">
-      <div class="cs">
-          80%
+      <h3>C#</h3>
+      <div class="lengpro">
+        <div class="cs">
+            80%
+        </div>
       </div>
-    </div>
 
-    <h3>Python</h3>
-    <div class="lengpro">
-      <div class="python">
-          75%
+      <h3>Python</h3>
+      <div class="lengpro">
+        <div class="python">
+            75%
+        </div>
       </div>
-    </div>
 
-    <h3>R</h3>
-    <div class="lengpro">
-      <div class="r">
-          75%
+      <h3>R</h3>
+      <div class="lengpro">
+        <div class="r">
+            75%
+        </div>
       </div>
-    </div>
 
-    <h3>Scala</h3>
-    <div class="lengpro">
-      <div class="scala">
-          75%
+      <h3>Scala</h3>
+      <div class="lengpro">
+        <div class="scala">
+            75%
+        </div>
       </div>
-    </div>
 
-    <h3>Angular</h3>
-    <div class="lengpro">
-      <div class="angular">
-          70%
+      <h3>Angular</h3>
+      <div class="lengpro">
+        <div class="angular">
+            70%
+        </div>
       </div>
-    </div>
 
-    <h3>Html</h3>
-    <div class="lengpro">
-      <div class="html">
-          55%
+      <h3>Html</h3>
+      <div class="lengpro">
+        <div class="html">
+            55%
+        </div>
       </div>
-    </div>
 
-    <h3>SQL</h3>
-    <div class="lengpro">
-      <div class="sql">
-          50%
+      <h3>SQL</h3>
+      <div class="lengpro">
+        <div class="sql">
+            50%
+        </div>
       </div>
-    </div>
 
-    <h3>Microsoft Azure</h3>
-    <div class="lengpro">
-      <div class="azure">
-          50%
+      <h3>Microsoft Azure</h3>
+      <div class="lengpro">
+        <div class="azure">
+            50%
+        </div>
       </div>
-    </div>
 
-    <h3>Xamarin</h3>
-    <div class="lengpro">
-      <div class="xamarin">
-          40%
+      <h3>Xamarin</h3>
+      <div class="lengpro">
+        <div class="xamarin">
+            40%
+        </div>
       </div>
-    </div>
 
-    <h3>CSS</h3>
-    <div class="lengpro">
-      <div class="css">
-          30%
+      <h3>CSS</h3>
+      <div class="lengpro">
+        <div class="css">
+            30%
+        </div>
       </div>
-    </div>
 
-    <h3>Javascript</h3>
-    <div class="lengpro">
-      <div class="javascript">
-          20%
+      <h3>Javascript</h3>
+      <div class="lengpro">
+        <div class="javascript">
+            20%
+        </div>
       </div>
+  </div>  
     </div>
-  </div>
 </div>
 
 

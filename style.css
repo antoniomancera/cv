@@ -40,8 +40,27 @@ html, body {
   background-color: #4CAF50;
   color: white;
 }
+ /* Dashed border */
+ hr.dashed {
+  border-top: 3px dashed #bbb;
+}
 
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
 
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  
+} 
 
 .p{
   margin-top: 1%;
@@ -54,7 +73,7 @@ html, body {
 
 .barrahe{
 float:left;	
-background-color:red;
+background-color:#045762;
 text-align:center;
   overflow: hidden;
   width: 100%;
@@ -63,7 +82,8 @@ text-align:center;
 
 
 .barrahe a{
-	background-color:green;
+	background-color:#045762;
+  ;
 margin-right:2%;
 padding:10px 10px;
 display: block;
@@ -144,6 +164,15 @@ filter:blur(2px);
 }
 
 
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  background-color: #4CAF50;
+
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
 .band {
   /*border-radius: 50%;*/
   -webkit-transition: -webkit-transform .8s ease-in-out;
@@ -189,7 +218,8 @@ filter:blur(2px);
 }
 
 .lengpro{
-  width: 80%;
+  
+  width: 85%;
   background-color: aqua;
   border-radius: 20px;
 }
@@ -261,7 +291,8 @@ filter:blur(2px);
 .ladoizq{
   width: 20%;
      float: left;
-     background-color: rebeccapurple;
+background-color:#045762;
+
   height: 100%;
   position: fixed;
 }
@@ -269,13 +300,13 @@ filter:blur(2px);
 .ladoder{
 width: 80%;
 float: right;
-background-color: greenyellow;
+background-color: #f3f2da;
 
 }
 
 .ladodermargen{
   margin-top: 3%;
-  margin-bottom: 3%;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-bottom: 4%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
