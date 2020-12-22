@@ -157,6 +157,35 @@ filter:blur(2px);
 .experiencia{
   margin-bottom: 10em;
 }
+.table{
+  border:separate;
+}
+
+.table1{
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  color:rebeccapurple;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+
+
+.table1 th,
+.table1 td {
+    padding: 9px 9px 9px 0px;
+}
+
+
+
+.w3-table{
+  color:green;
+  font-size: 16px;
+  font-family: fantasy;
+  
+}
+
 .lengpro{
   width: 80%;
   background-color: aqua;

@@ -21,6 +21,8 @@
 
 <script src="traductor.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--Biblioteca tablas-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -48,7 +50,7 @@
   <div class="ladodermargen">
 <!--Sobre mí-->
     <div id="mi">
-      <h2>ANTONIO MANUEL MANCERAS HEVILLA</h2>
+      <h3 style="text-align: center;">ANTONIO MANUEL MANCERAS HEVILLA</h3>
       <h3>
         <ng-container id="mat" name="translate" caption="mat">Matemático y programador</ng-container>
         <ng-container id="edad" >Málaga</ng-container>
@@ -155,7 +157,54 @@
         <h2 id="formacompl" name="translate" caption="formacompl">
           FORMACIÓN COMPLEMENTARIA
         </h2>
-        <div id="eoi">
+
+<!--w3-table-->
+        <table class="table1">
+       
+          <tr class="n">
+            <td class="n">2020</td>
+            <td class="n">Técnico en desarrollo de Aplicaciones Web con Angular (350h)</td>
+            <td class="n">EOI</td>
+          </tr>
+
+          <tr style="margin-left: 10px;">
+            <td>2020</td>
+            <td>Desarrollo de Aplicaciones Móviles (150h)</td>
+            <td>Cámara de Comercio</td>
+          </tr>
+
+          <tr>
+            <td>2020</td>
+            <td>Programa de Videojuegos y Emprendimiento (50h)</td>
+            <td>Fundación INCYDE</td>
+          </tr>
+          
+          <tr>
+            <td>2020</td>
+            <td>Introducción a Business Intelligence (30h)</td>
+            <td>Centro de Estudios Profesionales</td>
+          </tr>
+          
+          <tr>
+            <td>2019</td>
+            <td>R para Ciencia de Datos (25h)</td>
+            <td>FGUMA</td>
+          </tr>
+
+          <tr>
+            <td>2018</td>
+            <td>First Certificate in English</td>
+            <td>University of Cambridge</td>
+          </tr>
+
+          <tr>
+            <td>2015</td>
+            <td>Inglés nivel B1-2 (68h)</td>
+            <td>Área de Juventud Ayuntamiento de Málaga</td>
+          </tr>
+        </table>
+  
+        <!--<div id="eoi">
           <h3>
             <ng-container id="eoifecha">2020</ng-container>
             <ng-container id="eoititulo" name="translate" caption="eoititulo">Técnico en desarrollo de Aplicaciones Web con Angular (350h)</ng-container>
@@ -209,7 +258,7 @@
             <ng-container id="juvtitulo" name="translate" caption="juvtitulo">Inglés nivel B1-2 (68 horas)</ng-container>
             <ng-container id="juvlugar">Área de Juventud Ayuntamiento de Málaga</ng-container>
           </h3>
-        </div>
+        </div>-->
 
 
         
