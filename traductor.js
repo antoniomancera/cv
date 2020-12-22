@@ -31,7 +31,7 @@ function getLangResources(){
     fr['perso']="Je suis une personne calme, mais avec un esprit agité. J'ai une vraie passion pour l'apprentissage, je suis autodidacte et lecteur invétéré, je ne cesse de chercher de nouvelles informations pour approfondir mes connaissances sur toutes sortes de sujets. Certaines de mes matières préférées sont les mathématiques, l'histoire, la science-fiction et la programmation.    ";    
    
 
-    es['perfil']="Gracias a mi Grado en Matemáticas y mi Máster en Big Data y Business Intelligence, estoy orientando mi perfil profesional al área de la programación y las matemáticas. Si bien poseo poca experiencia profesional,lo estoy tratando de compensar con conocimientos en diversos áreas gracias a distintos cursos.";
+    es['perfil']=" Gracias a mi Grado en Matemáticas y mi Máster en Big Data y Business Intelligence, estoy orientando mi perfil profesional al área de la programación y las matemáticas. Si bien poseo poca experiencia profesional, lo estoy tratando de compensar aquiriendo conocimientos mediante cursos en diversas áreas. ";
     en['perfil']="Thanks to my Degree in Mathematics and my Master's Degree in Big Data and Business Intelligence, I am directing my professional profile to the area of programming and mathematics. Although I have little professional experience, I am trying to compensate with knowledge in various areas thanks to different courses.";
     fr['perfil']="Grâce à mon diplôme en mathématiques et mon Master en Big Data et Business Intelligence, je guide mon profil professionnel dans le domaine de la programmation et des mathématiques. Bien que j'aie peu d'expérience professionnelle, J'essaie de compenser par des connaissances dans divers domaines grâce à différents cours.";
 
