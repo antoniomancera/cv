@@ -84,7 +84,9 @@ margin-bottom: 10%;
  margin-bottom: 50em;
  
 }
-
+.git{
+  margin-right: 0.6%;
+}
 
 .git:hover{
   filter: invert(100%);
