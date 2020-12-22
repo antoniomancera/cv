@@ -73,7 +73,7 @@ hr.rounded {
 
 .barrahe{
 float:left;	
-background-color:#045762;
+background-color:#61c0bf;
 text-align:center;
   overflow: hidden;
   width: 100%;
@@ -82,7 +82,7 @@ text-align:center;
 
 
 .barrahe a{
-	background-color:#045762;
+	background-color:#61c0bf;
   ;
 margin-right:2%;
 padding:10px 10px;
@@ -220,7 +220,7 @@ filter:blur(2px);
 .lengpro{
   
   width: 85%;
-  background-color: aqua;
+  background-color: #bbded6;
   border-radius: 20px;
 }
 
@@ -291,7 +291,7 @@ filter:blur(2px);
 .ladoizq{
   width: 20%;
      float: left;
-background-color:#045762;
+background-color:#61c0bf;
 
   height: 100%;
   position: fixed;
@@ -300,7 +300,7 @@ background-color:#045762;
 .ladoder{
 width: 80%;
 float: right;
-background-color: #f3f2da;
+background-color: #fae3d9;
 
 }
 
