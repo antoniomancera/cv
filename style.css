@@ -3,6 +3,7 @@ html, body {
 	margin-top:0px;
   width: 100%;
   height: 100%;
+  
 }
 
 .full-height {
@@ -42,7 +43,7 @@ html, body {
 }
  /* Dashed border */
  hr.dashed {
-  border-top: 3px dashed #bbb;
+  border-top: 3px dashed #FFB48F;
 }
 
 /* Dotted border */
@@ -57,7 +58,7 @@ hr.solid {
 
 /* Rounded border */
 hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 8px solid #17E9E0;
   border-radius: 5px;
   
 } 
@@ -73,7 +74,7 @@ hr.rounded {
 
 .barrahe{
 float:left;	
-background-color:#61c0bf;
+background-color:#A64AC9;
 text-align:center;
   overflow: hidden;
   width: 100%;
@@ -82,8 +83,8 @@ text-align:center;
 
 
 .barrahe a{
-	background-color:#61c0bf;
-  ;
+	background-color:#A64AC9;
+  
 margin-right:2%;
 padding:10px 10px;
 display: block;
@@ -119,7 +120,7 @@ margin-bottom: 10%;
   margin-left: 100px;
   padding-top: 100px;
 }
-
+/*
 .barrahe1 a{
 	float: left;
   color: #f2f2f2;
@@ -136,7 +137,7 @@ margin-bottom: 10%;
 color:yellow;
 background-color:pink;	
 }
-
+*/
 ng-container{
   margin-right: 2%;
 }
@@ -163,7 +164,9 @@ ng-container{
 filter:blur(2px);
 }
 
-
+.pulse{
+  color:#FCCD04;
+}
 
 .pulse:hover, 
 .pulse:focus {
@@ -196,7 +199,7 @@ filter:blur(2px);
   width: 100%;
   border-spacing: 10px;
   border-collapse: separate;
-  color:rebeccapurple;
+ 
   border-collapse: collapse;
   font-size: 16px;
 }
@@ -220,49 +223,49 @@ filter:blur(2px);
 .lengpro{
   
   width: 85%;
-  background-color: #bbded6;
+  background-color: #A64AC9;
   border-radius: 20px;
 }
 
 .latex{
   width: 90%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .cs{
   width: 80%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
-.r,.scala{
+.r,.scala,.python{
   width: 75%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .angular{
   width: 70%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .html{
   width: 55%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .sql,.azure{
   width: 50%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
@@ -270,28 +273,28 @@ filter:blur(2px);
 .xamarin{
   width: 40%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .css{
   width: 30%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .javascript{
   width: 20%;
   text-align: center;
-  background-color: brown;
+  background-color: #FCCD04;
   border-radius: 20px;
 }
 
 .ladoizq{
   width: 20%;
      float: left;
-background-color:#61c0bf;
+background-color:#A64AC9;
 
   height: 100%;
   position: fixed;
@@ -300,7 +303,7 @@ background-color:#61c0bf;
 .ladoder{
 width: 80%;
 float: right;
-background-color: #fae3d9;
+background-color: #F5E6CC;
 
 }
 

@@ -40,9 +40,9 @@ function getLangResources(){
     fr['expe']="EXPERIÉNCE PROFESSIONNELLE";
 
 
-    es['avanombre']="Prácticas con tecnologías Microsoft en Avanade";
-    en['avanombre']="Internship using Microsoft technologies at Avanade";
-    fr['avanombre']="Pratiques avec les technologies Microsoft chez Avanade";
+    es['avanombre']="3/19-09/19 Prácticas con tecnologías Microsoft en Avanade";
+    en['avanombre']="3/19-09/19 Internship using Microsoft technologies at Avanade";
+    fr['avanombre']="3/19-09/19 Pratiques avec les technologies Microsoft chez Avanade";
 
     es['avaexpl']="Programación bajo tecnología Microsoft en entornos .Net, C#, SQL, bajo metodologías Agile. La primera parte estuvo principalmente orientada al aprendizaje de C#, y SQL,para usar los conocimientos aprendidos con Microsoft Azure.";
     en['avaexpl']="Programmation sous technologie Microsoft dans des environnements .Net, C #, SQL, sous methods Agile. The premiere part is mainly oriented towards the application of C #, and SQL, to use the knowledge acquired with Microsoft Azure.";
@@ -53,9 +53,9 @@ function getLangResources(){
     en['formacade']="EDUCATION";
     fr['formacade']="FORMATION UNIVERSITAIRE";
     
-    es['mastertitulo']="Máster en Big Data y Business Intelligence";
-    en['mastertitulo']="Masters degree in Big Data and Business Intelligence"
-    fr['mastertitulo']="Master dans Big Data et Business Intelligence";
+    es['mastertitulo']="2020 Máster en Big Data y Business Intelligence";
+    en['mastertitulo']="2020 Masters degree in Big Data and Business Intelligence"
+    fr['mastertitulo']="2020 Master dans Big Data et Business Intelligence";
 
     es['masteriseb']="Universidad Isabel I y ISEB, España";
     en['masteriseb']="Isabel I University and ISEB, Spain";
@@ -67,9 +67,9 @@ function getLangResources(){
     
       
        
-    es['matesgrado']="Grado en Matemáticas";
-    en['matesgrado']="Degree in Mathematics";
-    fr['matesgrado']="Diplôme en Mathématique";
+    es['matesgrado']="2018  Grado en Matemáticas";
+    en['matesgrado']="2018       Degree in Mathematics";
+    fr['matesgrado']="2018 Diplôme en Mathématique";
 
     es['matesuma']="Universidad de Malaga, España";
     en['matesuma']="University of Málaga, Spain";
@@ -83,9 +83,9 @@ function getLangResources(){
     en['matesjulia']="I also considered iterated polynomial functions (of the Riemann sphere itself), and introduced the basic concepts associated with this theory, such as Julia and Fatou sets. ";
     fr['matesjulia']="J'ai également considéré les fonctions polynomiales itérées (de la sphère de Riemann elle-même) et j'ai introduit les concepts de base associés à cette théorie, comme les ensembles de Julia et Fatou. ";
 
-    es['bachillertitulo']="Título de Bachillerato";
-    en['bachillertitulo']="High school degree";
-    fr['bachillertitulo']="Diplôme d'études secondaires";
+    es['bachillertitulo']="2009 Título de Bachillerato";
+    en['bachillertitulo']="2009 High school degree";
+    fr['bachillertitulo']="2009 Diplôme d'études secondaires";
 
     es['bachillercampa']="I.E.S. Campanillas, España";
     en['bachillercampa']="I.E.S. Campanillas, Spain";
@@ -198,7 +198,7 @@ $("ng-container[name='translate']").each(function(i, elt){
 $("li[name='translate']").each(function(i, elt){
     $(elt).text(resources[$(elt).attr("caption")]);
 });
-$(".active[name='translate']").each(function(i, elt){
+$("h4[name='translate']").each(function(i, elt){
     $(elt).text(resources[$(elt).attr("caption")]);
 });
 $("active[name='translate']").each(function(i, elt){
