@@ -136,27 +136,6 @@ function getLangResources(){
 
     */
 
-    /*tr['hello_world'] = "Merhaba Dünya"; 
-    en['hello_world'] = "Hello World";
-    
-    tr['h1'] = "Merhaba H1 tag"; 
-    en['h1'] = "Hi H1 tag";
-
-    tr['h2'] = "Merhaba H2 tag"; 
-    en['h2'] = "Hi H2 tag";
-
-    tr['h3'] = "Merhaba H3 tag"; 
-    en['h3'] = "Hi H3 tag";
-
-    tr['my_button'] = "Ara"; 
-    en['my_button'] = "Search";
-
-
-    tr['hello_world1'] = "Merhaba Dünyaasdasd"; 
-    en['hello_world1'] = "Hello Worldasdasd";
-
-    tr['prueba']="dfjasdfkljdfkldj";
-    en['prueba']="237847234872894723894723897";*/
 
     
     // Added new array defined arrays.

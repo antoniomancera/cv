@@ -6,41 +6,8 @@ html, body {
   
 }
 
-.full-height {
-  height: 100%;
-  margin-top:0px;
-  background-color:red;
-  width:40%;
-  float:left;
-  margin:0px;
-}
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
  /* Dashed border */
  hr.dashed {
   border-top: 3px dashed #FFB48F;
@@ -91,14 +58,6 @@ display: block;
 width: 100%;
 }
 
-.barrahe1{
-overflow: hidden;
-background-color:green;
-position: fixed;
-width: 100%;
-margin-bottom: 10%;
-
-}
 
 .mi{
   margin-top: 5em;
@@ -114,33 +73,6 @@ margin-bottom: 10%;
   
 }
 
-.experiencia{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  padding-top: 100px;
-}
-/*
-.barrahe1 a{
-	float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-.barrahe1 a.hover{
-	color:blue;
-	background-color:purple;
-}
-
-.barrahe1 a.active{
-color:yellow;
-background-color:pink;	
-}
-*/
-ng-container{
-  margin-right: 2%;
-}
 
 .btn{
   background-color: green;
@@ -151,165 +83,392 @@ ng-container{
   /*float:right;*/
 }
 
+
+.idieur{
+  font-size: 16px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 .idiomas{
   text-align: center;
 }
 
-.foto{
-  margin-bottom: 4%;
-}
-
-.foto:hover{
-/*filter: saturate(var(--value,5));*/
-filter:blur(2px);
-}
-
-.pulse{
-  color:#FCCD04;
-}
-
-.pulse:hover, 
-.pulse:focus {
-  animation: pulse 1s;
-  background-color: #4CAF50;
-
-  box-shadow: 0 0 0 2em rgba(#fff,0);
-}
-
-.band {
-  /*border-radius: 50%;*/
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
-          
-}
-.band:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
 
 
-.experiencia{
-  margin-bottom: 10em;
-}
-.table{
-  border:separate;
-}
 
-.table1{
+/*
+@media screen and (max-width:480px) {  
+  .foto {
+    display: none;
+  }
+  .foto1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .ladoizq{
+   display: none;
+   
+  }
+  
+  
+  .ladoder{
   width: 100%;
-  border-spacing: 10px;
-  border-collapse: separate;
+  
+  
+  background-color: #F5E6CC;
+  margin-top: 0%;
+  }
+  
+  .ladodermargen{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+
+  Style the navigation menu 
+ .topnav {
+  overflow: hidden;
+  background-color: #8051BF;
+  position: fixed;
+  width: 100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) 
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links 
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu 
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) 
+.active {
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 30px;
+} 
  
-  border-collapse: collapse;
-  font-size: 16px;
 }
+*/
+
+@media screen and (max-width:480px) {  
+  .foto {
+    display: none;
+  }
+  .foto1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .ladoizq{
+    display: none;
+  }
+  
+  .pulse{
+    color:#FCCD04;
+  }
+
+  .pulse:hover, 
+  .pulse:focus {
+    animation: pulse 1s;
+    background-color: #4CAF50;
+
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+  }
+
+  .band {
+    /*border-radius: 50%;*/
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+            
+  }
+  .band:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
+  .experiencia{
+    margin-bottom: 10em;
+  }
+  .table{
+    border:separate;
+  }
+
+  .table1{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+  
+    border-collapse: collapse;
+    font-size: 16px;
+  }
 
 
 
-.table1 th,
-.table1 td {
-    padding: 9px 9px 9px 0px;
-}
+  .table1 th,
+  .table1 td {
+      padding: 9px 9px 9px 0px;
+  }
 
 
 
-.w3-table{
-  color:green;
-  font-size: 16px;
-  font-family: fantasy;
+
+
+  
+
+  .ladoder{
+  width: 100%;
+  float: right;
+  background-color: #F5E6CC;
+
+  }
+
+  .ladodermargen{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
   
 }
+
+
+
+@media screen and (min-width:480px){
+  .foto1{
+    display: none;
+  }
+  .foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  
+  }
+
+  .topnav{
+    display: none;
+  }
+
+
+
+
+  .pulse{
+    color:#FCCD04;
+  }
+
+  .pulse:hover, 
+  .pulse:focus {
+    animation: pulse 1s;
+    background-color: #4CAF50;
+
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+  }
+
+  .band {
+    /*border-radius: 50%;*/
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+            
+  }
+  .band:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
+  .experiencia{
+    margin-bottom: 10em;
+  }
+  .table{
+    border:separate;
+  }
+
+  .table1{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+  
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+
+
+
+  .table1 th,
+  .table1 td {
+      padding: 9px 9px 9px 0px;
+  }
+
+
+
+
+
+  .ladoizq{
+    width: 20%;
+    float: left;
+    background-color:#A64AC9;
+
+    height: 100%;
+    position: fixed;
+  }
+
+  .ladoder{
+  width: 80%;
+  float: right;
+  background-color: #F5E6CC;
+
+  }
+
+  .ladodermargen{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+  
+}
+
 
 .lengpro{
   
   width: 85%;
-  background-color: #A64AC9;
+  background-color:  #C0C0C0;
   border-radius: 20px;
 }
 
 .latex{
   width: 90%;
   text-align: center;
-  background-color: #FCCD04;
+  background-color: #1EACF1;
   border-radius: 20px;
 }
 
 .cs{
   width: 80%;
   text-align: center;
-  background-color: #FCCD04;
+  background-color: #8051BF;
   border-radius: 20px;
 }
 
 .r,.scala,.python{
   width: 75%;
   text-align: center;
-  background-color: #FCCD04;
+  
   border-radius: 20px;
+}
+
+
+.python{
+  background-color: #FCCD04;
+}
+
+.r{
+  background-color: #246CBD;
+}
+
+
+.scala{
+  background-color: #E10404;
 }
 
 .angular{
   width: 70%;
   text-align: center;
-  background-color: #FCCD04;
+  background-color: #CB3034;
   border-radius: 20px;
 }
 
 .html{
   width: 55%;
   text-align: center;
-  background-color: #FCCD04;
+  background-color: #E85326;
   border-radius: 20px;
 }
 
 .sql,.azure{
   width: 50%;
   text-align: center;
-  background-color: #FCCD04;
+ 
   border-radius: 20px;
 }
 
+.sql{
+  background-color: #047CD4;
+}
 
-.xamarin{
+.azure{
+  background-color: #048CDC;
+}
+
+.xamarin, .type{
   width: 40%;
   text-align: center;
-  background-color: #FCCD04;
+
   border-radius: 20px;
+}
+
+.xamarin{
+  background-color: #349CDC;
+}
+
+.haskell{
+  background-color: #F97E2F;
+  text-align: center;
+  width: 45%;
+  border-radius: 20px;
+}
+.type{
+  background-color: #047CCC;
 }
 
 .css{
   width: 30%;
   text-align: center;
-  background-color: #FCCD04;
+  background-color: #2850FC;
   border-radius: 20px;
 }
 
 .javascript{
   width: 20%;
   text-align: center;
-  background-color: #FCCD04;
+  background-color: #F3DB1B;
   border-radius: 20px;
 }
 
-.ladoizq{
-  width: 20%;
-     float: left;
-background-color:#A64AC9;
 
-  height: 100%;
-  position: fixed;
-}
 
-.ladoder{
-width: 80%;
-float: right;
-background-color: #F5E6CC;
-
-}
-
-.ladodermargen{
-  margin-top: 3%;
-  margin-bottom: 4%;
-  margin-right: 4%;
-  margin-left: 4%;
-}

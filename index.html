@@ -5,13 +5,7 @@
   <title>HTML</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <!--
-   <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div> -->
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- Add Bootstrap lib -->
@@ -28,11 +22,48 @@
 <body>
 
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a class="active"  href="#mi" id="yo" name="translate"caption="yo"> </a>
+    
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+    <a class="pulse" href="#experiencia" id="exp" name="translate" caption="exp" >EXPERIENCIA</a>
+    <a class="pulse" href="#form" id="formacion" name="translate" caption="formacion" >FORMACIÓN </a>
+    <a  class="pulse" href="#formcompl" id="habil" name="translate" caption="habil"> HABILIDADES </a>
+    <div class="idiomas">
+      <button class="btn" id="es_button" ><img class="band" src="assets/spain.png" alt="" height="40px" width="40px"></button>
+      <button class="btn" id="eng_button"><img class="band" src="assets/usaukc.png" alt="" height="40px" width="40px"></button>
+      <button class="btn" id="fr_button"><img class="band" src="assets/france.png" alt="" height="40px" width="40px"></button>
+    </div>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+</script>
+
+
+
 
 <div class="ladoizq">
 
   <div class="barrahe" >
-    <img class="foto" src="assets/fotocirc.png" alt="" width="200px" height="200px" >
+    <img class="foto" src="assets/fotocirc.png" alt="" >
     <a class="pulse"  href="#mi" id="yo" name="translate" caption="yo" > SOBRE MÍ</a>
     <a class="pulse" href="#experiencia" id="exp" name="translate" caption="exp" >EXPERIENCIA</a>
     <a class="pulse" href="#form" id="formacion" name="translate" caption="formacion" >FORMACIÓN </a>
@@ -65,9 +96,13 @@
         <a href="skype:antoniomanuelmancerahevilla?chat" ><img class="git" src="assets/skype.png" alt="" width="32px" height="32px"></a>
         <a><img class="git" src="assets/insta.png" alt="" width="38px" height="38px"></a>
         <a href="https://www.italki.com/user/7281526"><img class="git" src="assets/italki.png" alt="" width="52px" height="32px"></a>
-        
+        <hr class="dashed" >
+        <img  src="assets/spain.png" alt="" height="40px" width="40px"><span class="idieur"><b>Nativo</b></span>
+        <img  src="assets/usaukc.png" alt="" height="40px" width="40px"><span class="idieur"><b>C1-B2</b></span>
+        <img  src="assets/france.png" alt="" height="40px" width="40px"><span class="idieur"><b>A2-B1</b></span>
+        <hr class="dashed" >
       </div>
-      <hr class="dashed" >
+      <img class="foto1" src="assets/fotocirc.png" alt="" >
       <div>
         <p class="p" id="perso" name="translate" caption="perso" >
           Soy una persona tranquila, pero de mente inquieta. Tengo auténtica pasión por aprender,
@@ -236,7 +271,7 @@
     <h2>PROGRAMACIÓN</h2>
     <hr class="rounded">
     <div >
-      <h3 ><img src="assets/latextransparent.png" alt="" height="32px" width="32px"><img src="assets/textazul.jpg" alt="" height="32px" width="32px"><img src="assets/textazultrans.png" alt="" height="32px" width="32px">Latex</h3>
+      <h3 ><img src="assets/textazultrans.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Latex</h3>
       <div class="lengpro">
         <div class="latex">
             90%
@@ -245,77 +280,93 @@
 
 
 
-      <h3><img src="assets/C#.png" alt="" width="40px" height="40px"><img src="assets/Cs.png" alt="" height="32px" width="32px">C#</h3>
+      <h3><img src="assets/C#.png" alt="" width="40px" height="40px"><img src="assets/Cs.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">C#</h3>
       <div class="lengpro">
         <div class="cs">
             80%
         </div>
       </div>
 
-      <h3>Python</h3>
+      <h3><img src="assets/python.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Python</h3>
       <div class="lengpro">
         <div class="python">
             75%
         </div>
       </div>
 
-      <h3>R</h3>
+      <h3><img src="assets/Rlogo.svg" alt="" height="32px" width="32px" style="margin-right: 0.5%;">R</h3>
       <div class="lengpro">
         <div class="r">
             75%
         </div>
       </div>
 
-      <h3>Scala</h3>
+      <h3><img src="assets/scala.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Scala</h3>
       <div class="lengpro">
         <div class="scala">
             75%
         </div>
       </div>
 
-      <h3>Angular</h3>
+      <h3><img src="assets/Angular.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Angular</h3>
       <div class="lengpro">
         <div class="angular">
             70%
         </div>
       </div>
 
-      <h3>Html</h3>
+      <h3><img src="assets/Html.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Html</h3>
       <div class="lengpro">
         <div class="html">
             55%
         </div>
       </div>
 
-      <h3>SQL</h3>
+      <h3><img src="assets/sql.png" alt="" height="32px" width="32px" style="margin-right: 0.5%;">SQL</h3>
       <div class="lengpro">
         <div class="sql">
             50%
         </div>
       </div>
 
-      <h3>Microsoft Azure</h3>
+      <h3><img src="assets/azuretrans.png" alt="" height="32px" width="42px" style="margin-right: 0.5%;">Microsoft Azure</h3>
       <div class="lengpro">
         <div class="azure">
             50%
         </div>
       </div>
 
-      <h3>Xamarin</h3>
+      <h3><img src="assets/haskell.svg" alt="" height="32px" width="42px" style="margin-right: 0.5%;">Haskell</h3>
+      <div class="lengpro">
+        <div class="haskell">
+            45%
+        </div>
+      </div>
+
+
+      <h3><img src="assets/xamarin-seeklogo.com.svg" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Xamarin</h3>
       <div class="lengpro">
         <div class="xamarin">
             40%
         </div>
       </div>
 
-      <h3>CSS</h3>
+      
+      <h3><img src="assets/typescript.png" alt="" height="32px" width="42px" style="margin-right: 0.5%;">Typescript</h3>
+      <div class="lengpro">
+        <div class="type">
+            40%
+        </div>
+      </div>
+
+      <h3><img src="assets/css.png" alt="" height="42px" width="32px" style="margin-right: 0.5%;">CSS</h3>
       <div class="lengpro">
         <div class="css">
             30%
         </div>
       </div>
 
-      <h3>Javascript</h3>
+      <h3><img src="assets/javascript-js-seeklogo.com.svg" alt="" height="32px" width="32px" style="margin-right: 0.5%;">Javascript</h3>
       <div class="lengpro">
         <div class="javascript">
             20%
