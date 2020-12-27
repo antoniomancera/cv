@@ -242,17 +242,11 @@ width: 100%;
       padding: 9px 9px 9px 0px;
   }
 
-
-
-
-
-  
-
   .ladoder{
   width: 100%;
   float: right;
   background-color: #F5E6CC;
-
+  margin-top: 50px;
   }
 
   .ladodermargen{
@@ -262,7 +256,53 @@ width: 100%;
     margin-left: 4%;
   }
 
+  /* Style the navigation menu */
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  margin-top: 0%;
+  width: 100%;
+  top:0;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
   
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #A64AC9;
+  color: white;
+  height: 50px;
+  margin-left: 0%;
+} 
 }
 
 
