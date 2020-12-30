@@ -39,31 +39,9 @@ hr.rounded {
 
 
 
-.barrahe{
-float:left;	
-background-color:#A64AC9;
-text-align:center;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 30%;
-}
 
 
-.barrahe a{
-	background-color:#A64AC9;
-  
-margin-right:2%;
-padding:10px 10px;
-display: block;
-width: 100%;
-}
 
-
-.mi{
-  margin-top: 5em;
- margin-bottom: 50em;
- 
-}
 .git{
   margin-right: 0.6%;
 }
@@ -96,6 +74,26 @@ width: 100%;
 
 
 
+/*tablas*/
+.table{
+  border:separate;
+}
+
+.table1{
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+
+
+.table1 th,
+.table1 td {
+    padding: 9px 9px 9px 0px;
+}
 
 
 
@@ -111,10 +109,11 @@ width: 100%;
     height: 100%;
   
   }
-  .ladoizq{
-    display: none;
-  }
+
   
+  
+ 
+
   .pulse{
     color:#FCCD04;
   }
@@ -163,10 +162,11 @@ width: 100%;
   }
 
   .ladoder{
+    margin-top: 50px;
   width: 100%;
   float: right;
   background-color: #F5E6CC;
-  margin-top: 50px;
+  
   }
 
   .ladodermargen{
@@ -176,23 +176,26 @@ width: 100%;
     margin-left: 4%;
   }
 
-  /* Style the navigation menu */
- .topnav {
+
+ /* Style the navigation menu */
+ .barrahe {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   margin-top: 0%;
   width: 100%;
+  
   top:0;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+.barrahe #myLinks {
   display: none;
+  background-color: aqua;
 }
 
 /* Style navigation menu links */
-.topnav a {
+.barrahe a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -201,17 +204,10 @@ width: 100%;
   
 }
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+
 
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
+.barrahe a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -220,7 +216,7 @@ width: 100%;
 .active {
   background-color: #A64AC9;
   color: white;
-  height: 50px;
+  height:50px;
   margin-left: 0%;
 } 
 }
@@ -243,8 +239,33 @@ width: 100%;
     display: none;
   }
 
+  .barrahe{
+    float:left;	
+    background-color:#A64AC9;
+    text-align:center;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 30%;
+    }
+    
+    
+    .barrahe a{
+      background-color:#A64AC9;
+      
+    margin-right:2%;
+    padding:10px 10px;
+    display: block;
+    width: 100%;
+    }
 
-
+    .barrahe .icon{
+      display: none;
+    }
+    .mi{
+      margin-top: 5em;
+     margin-bottom: 50em;
+     
+    }
 
   .pulse{
     color:#FCCD04;
@@ -273,26 +294,7 @@ width: 100%;
   .experiencia{
     margin-bottom: 10em;
   }
-  .table{
-    border:separate;
-  }
-
-  .table1{
-    width: 100%;
-    border-spacing: 10px;
-    border-collapse: separate;
   
-    border-collapse: collapse;
-    font-size: 16px;
-  }
-
-
-
-  .table1 th,
-  .table1 td {
-      padding: 9px 9px 9px 0px;
-  }
-
 
 
 
@@ -429,6 +431,8 @@ width: 100%;
   background-color: #F3DB1B;
   border-radius: 20px;
 }
+
+
 
 
 
