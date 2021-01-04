@@ -3,14 +3,14 @@ html, body {
 	margin-top:0px;
   width: 100%;
   height: 100%;
-  
+ 
 }
 
 
 
  /* Dashed border */
  hr.dashed {
-  border-top: 3px dashed #FFB48F;
+  border-top: 3px dashed #ff165d;
 }
 
 /* Dotted border */
@@ -25,7 +25,7 @@ hr.solid {
 
 /* Rounded border */
 hr.rounded {
-  border-top: 8px solid #17E9E0;
+  border-top: 8px solid #3ec1d3;
   border-radius: 5px;
   
 } 
@@ -115,7 +115,7 @@ hr.rounded {
  
 
   .pulse{
-    color:#FCCD04;
+    color:#ff9a00;
   }
 
   .pulse:hover, 
@@ -241,7 +241,7 @@ hr.rounded {
 
   .barrahe{
     float:left;	
-    background-color:#A64AC9;
+    background-color:#3ec1d3;
     text-align:center;
       overflow: hidden;
       width: 100%;
@@ -250,7 +250,7 @@ hr.rounded {
     
     
     .barrahe a{
-      background-color:#A64AC9;
+      background-color:#3ec1d3;
       
     margin-right:2%;
     padding:10px 10px;
@@ -274,7 +274,7 @@ hr.rounded {
   .pulse:hover, 
   .pulse:focus {
     animation: pulse 1s;
-    background-color: #4CAF50;
+    background-color: #d34f3d;
 
     box-shadow: 0 0 0 2em rgba(#fff,0);
   }
@@ -302,7 +302,7 @@ hr.rounded {
   .ladoizq{
     width: 20%;
     float: left;
-    background-color:#A64AC9;
+    background-color:#3ec1d3;
 
     height: 100%;
     position: fixed;
@@ -311,7 +311,7 @@ hr.rounded {
   .ladoder{
   width: 80%;
   float: right;
-  background-color: #F5E6CC;
+  background-color: #f6f7d7;
 
   }
 
